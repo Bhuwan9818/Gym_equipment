@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#101010"/>
+  <rect x="0" y="500" width="600" height="100" fill="#181818"/>
+  <g stroke="#C8A96E" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="120" y1="520" x2="120" y2="140"/>
+    <line x1="480" y1="520" x2="480" y2="140"/>
+    <line x1="120" y1="140" x2="480" y2="140"/>
+    <line x1="120" y1="260" x2="480" y2="260"/>
+    <line x1="80" y1="520" x2="160" y2="520"/>
+    <line x1="440" y1="520" x2="520" y2="520"/>
+  </g>
+  <g stroke="#8a8a8a" stroke-width="8" fill="none" stroke-linecap="round">
+    <line x1="190" y1="300" x2="190" y2="380"/>
+    <line x1="410" y1="300" x2="410" y2="380"/>
+  </g>
+  <circle cx="300" cy="200" r="34" fill="none" stroke="#C8A96E" stroke-width="8"/>
+  <line x1="300" y1="234" x2="300" y2="300" stroke="#C8A96E" stroke-width="8"/>
+  <text x="300" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#6A6A6A" letter-spacing="2">SAMPLE ILLUSTRATION</text>
+</svg>

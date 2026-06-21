@@ -1,0 +1,9 @@
+# Block all direct access to this folder. Pages read these JSON files
+# through PHP (includes/functions.php), never directly over HTTP.
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order allow,deny
+  Deny from all
+</IfModule>
