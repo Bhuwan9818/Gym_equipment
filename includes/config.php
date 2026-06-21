@@ -77,7 +77,7 @@ define('USE_PRETTY_URLS', false);
 // Default login: username "admin", password "ChangeMe123!"
 // CHANGE THIS IMMEDIATELY using admin/generate-hash.php — see README.md
 define('ADMIN_USERNAME', 'admin');
-define('ADMIN_PASSWORD_HASH', '$2b$12$sox41vXiT8xt39aO.HdPquqEC7Qv/7FoWenD7VLaykY35X6vJxIWi');
+define('ADMIN_PASSWORD_HASH', '$2y$10$xwnJVrm7WZ73LHhEiMKK7.UkeJGKM54CqzdvHTaIAPmT13EbKHxDK');
 
 // Random secret used to make the session cookie name unique to this site.
 define('ADMIN_SESSION_NAME', 'fitron_admin_session');
