@@ -147,7 +147,7 @@ nav.s{
 .hero-progress-bar{height:100%;background:var(--gold);width:0%;transform-origin:left}
 
 /* buttons */
-.btn-p{font-family:var(--fa);font-size:.88rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--gold);color:#080808;padding:1rem 2.3rem;border:none;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px));transition:background .3s,transform .2s,box-shadow .3s;cursor:none}
+.btn-p{font-family:var(--fa);font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--gold);color:#080808;padding:.8rem 1.8rem;border:none;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px));transition:background .3s,transform .2s,box-shadow .3s;cursor:none}
 .btn-p:hover{background:var(--gold-l);transform:translateY(-2px);box-shadow:0 12px 36px rgba(200,169,110,.28)}
 .btn-s{font-family:var(--fa);font-size:.88rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--tx);text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;border-bottom:1px solid rgba(150,150,150,.35);padding-bottom:2px;transition:color .3s,border-color .3s}
 .btn-s:hover{color:var(--gold);border-color:var(--gold)}
