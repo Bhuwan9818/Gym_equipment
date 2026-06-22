@@ -48,7 +48,7 @@ include __DIR__ . '/includes/header.php';
   </div>
 
   <div class="hero-slide" aria-hidden="true">
-    <div class="hero-slide-imgwrap"><img src="<?php echo asset('assets/images/site/banner4.png'); ?>" alt="Professional gym equipment" loading="lazy" decoding="async"></div>
+    <div class="hero-slide-imgwrap"><img src="<?php echo asset('assets/images/site/banner2.png'); ?>" alt="Professional gym equipment" loading="lazy" decoding="async"></div>
     <div class="hero-slide-ov"></div>
     <div class="slide-text">
       <div class="hero-tag">Commercial Grade · 5-Year Warranty</div>
@@ -66,7 +66,7 @@ include __DIR__ . '/includes/header.php';
   </div>
 
   <div class="hero-slide" aria-hidden="true">
-    <div class="hero-slide-imgwrap"><img src="<?php echo asset('assets/images/site/banner5.png'); ?>" alt="Luxury home gym" loading="lazy" decoding="async"></div>
+    <div class="hero-slide-imgwrap"><img src="<?php echo asset('assets/images/site/banner3.png'); ?>" alt="Luxury home gym" loading="lazy" decoding="async"></div>
     <div class="hero-slide-ov"></div>
     <div class="slide-text">
       <div class="hero-tag">Free Design · Expert Installation</div>
@@ -181,15 +181,39 @@ include __DIR__ . '/includes/header.php';
   <h2 class="sh2 reveal" style="margin-bottom:2rem">PRODUCTS <span class="g">BY CATEGORY</span></h2>
   <div class="cat-grid">
     <?php foreach ($categories as $i => $cat): ?>
-      <a href="<?php echo url_for_category($cat['id']); ?>" class="ccat reveal d<?php echo $i + 1; ?>">
-        <img src="<?php echo asset($cat['image']); ?>" alt="<?php echo h($cat['name']); ?>" loading="lazy">
+
+      <?php
+      $image = $cat['image'];
+
+      if ($cat['id'] == 5) {
+          $image = 'assets/images/special-category.jpg';
+      }
+      ?>
+
+      <a href="<?php echo url_for_category($cat['id']); ?>"
+        class="ccat reveal d<?php echo $i + 1; ?>">
+
+        <img
+            src="<?php echo asset($image); ?>"
+            alt="<?php echo h($cat['name']); ?>"
+            loading="lazy">
+
         <div class="ccat-ov"></div>
         <div class="ccat-arr">→</div>
+
         <div class="ccat-body">
-          <span class="ccat-label"><?php echo strtoupper(h($cat['name'])); ?></span>
-          <div class="ccat-tagline"><?php echo h($cat['tagline']); ?></div>
-          <span class="ccat-count"><?php echo product_count_label($cat['id']); ?> →</span>
-        </div>
+              <span class="ccat-label">
+                  <?php echo strtoupper(h($cat['name'])); ?>
+              </span>
+
+              <div class="ccat-tagline">
+                  <?php echo h($cat['tagline']); ?>
+              </div>
+
+              <span class="ccat-count">
+                  <?php echo product_count_label($cat['id']); ?> →
+              </span>
+            </div>
       </a>
     <?php endforeach; ?>
   </div>
@@ -197,7 +221,7 @@ include __DIR__ . '/includes/header.php';
 
 <!-- ══ FEATURE BANNER ══ -->
 <div class="banner reveal">
-  <img src="<?php echo asset('assets/images/site/full_gym.jpg'); ?>" alt="Shaping the future of health" loading="lazy">
+  <img src="<?php echo asset('assets/images/site/banner1.webp'); ?>" alt="Shaping the future of health" loading="lazy">
   <div class="banner-ov"></div>
   <div class="banner-body">
     <div class="eyebrow">Our Philosophy</div>
@@ -214,7 +238,7 @@ include __DIR__ . '/includes/header.php';
 </section>
 <div class="life-grid reveal" style="margin-bottom:3px">
   <div class="lg-main">
-    <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=900&q=80&auto=format&fit=crop" alt="Training lifestyle" loading="lazy">
+    <img src="assets/images/site/gym2.webp" alt="Training lifestyle" loading="lazy">
     <div class="lg-badge">✦ Home Gym Setup</div>
     <div class="lg-label">Transform Your Space</div>
   </div>

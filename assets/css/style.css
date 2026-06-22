@@ -64,7 +64,7 @@ nav.s{
 .nav-links a:hover,.nav-links a.active{color:var(--tx)}
 .nav-links a:hover::after,.nav-links a.active::after{width:100%}
 .nav-dd{position:relative}
-.nav-dd-menu{position:absolute;top:calc(100% + 18px);left:50%;transform:translateX(-50%) translateY(8px);min-width:230px;background:var(--modal);border:1px solid var(--br);box-shadow:var(--sh);padding:.5rem;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:50}
+.nav-dd-menu{position:absolute;top:calc(100% + 5px);left:50%;transform:translateX(-50%) translateY(8px);min-width:230px;background:var(--modal);border:1px solid var(--br);box-shadow:var(--sh);padding:.5rem;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:50}
 .nav-dd:hover .nav-dd-menu{opacity:1;pointer-events:all;transform:translateX(-50%) translateY(0)}
 .nav-dd-menu a{display:flex;justify-content:space-between;gap:.6rem;padding:.65rem .8rem;font-size:.82rem;text-transform:none;letter-spacing:.02em;color:var(--tx2);text-decoration:none;transition:background .2s,color .2s}
 .nav-dd-menu a:hover{background:var(--gold-d);color:var(--tx)}
