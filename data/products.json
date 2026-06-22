@@ -623,63 +623,518 @@
     "placeholder": false
   },
   {
-    "sku": "OGE-OUT-001",
-    "slug": "outdoor-pull-up-dip-station",
-    "name": "Outdoor Pull-Up & Dip Station",
-    "category": "outdoor-gym-equipment",
-    "subcategory": "strength-stations",
-    "image": "assets/images/products/outdoor-gym-equipment/outdoor-pull-up-dip-station.svg",
-    "short_description": "Sample placeholder listing. Replace this illustration and these specifications with your real outdoor pull-up & dip station photos and data via the Admin Panel.",
+    "sku": "OGE-IND-026",
+    "slug": "lat-pull-down-rowing-single-pulley",
+    "name": "Lat Pull Down With Rowing Single Pulley",
+    "category": "indoor-gym-equipment",
+    "subcategory": "chest-back",
+    "image": "assets/images/products/indoor-gym-equipment/lat-pull-down-rowing-single-pulley.jpg",
+    "short_description": "A 2-in-1 station that switches between a wide-grip lat pulldown and a seated low row from the same single-pulley frame, covering both major back-width and back-thickness movements in one footprint.",
     "specs": {
-      "Status": "Sample placeholder — add real specifications"
+      "Model": "SF-014",
+      "Main Frame": "Rectangular Steel Tube",
+      "Cushion": "Made Of PU Material",
+      "Pulley": "Plastic",
+      "Handle": "Round Steel With Silicone Grip",
+      "Weight Plate": "MS Bar",
+      "Weight Stack": "75/100 kg",
+      "Max User Weight": "150 kg",
+      "Length": "60 inches",
+      "Width": "40 inches",
+      "Height": "90 inches"
     },
     "price_on_enquiry": true,
     "featured": false,
-    "placeholder": true
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-IND-027",
+    "slug": "lat-pull-down-rowing-double-pulley",
+    "name": "Lat Pull Down With Rowing Double Pulley",
+    "category": "indoor-gym-equipment",
+    "subcategory": "chest-back",
+    "image": "assets/images/products/indoor-gym-equipment/lat-pull-down-rowing-double-pulley.jpg",
+    "short_description": "A dual-pulley version of our pulldown-and-row combo station, with independent left/right cables that allow unilateral pulldowns and rows for more balanced, full-range back development.",
+    "specs": {
+      "Model": "SF-034",
+      "Main Frame": "Rectangular Steel Tube",
+      "Cushion": "Made Of PU Material",
+      "Pulley": "Plastic",
+      "Handle": "Round Steel With Silicone Grip",
+      "Weight Plate": "MS Bar",
+      "Weight Stack": "80/100 kg",
+      "Max User Weight": "150 kg",
+      "Length": "60 inches",
+      "Width": "40 inches",
+      "Height": "90 inches"
+    },
+    "price_on_enquiry": true,
+    "featured": true,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-IND-028",
+    "slug": "high-low-pulley-adjustable",
+    "name": "High Low Pulley Adjustable",
+    "category": "indoor-gym-equipment",
+    "subcategory": "core-multi-station",
+    "image": "assets/images/products/indoor-gym-equipment/high-low-pulley-adjustable.jpg",
+    "short_description": "A single height-adjustable pulley tower that travels from floor level to overhead, opening up cable crunches, woodchoppers, tricep pressdowns, low rows and dozens of other cable exercises from one compact station.",
+    "specs": {
+      "Model": "SF-023",
+      "Main Frame": "Rectangular Steel Tube",
+      "Cushion": "Made Of PU Material",
+      "Pulley": "Plastic",
+      "Handle": "Round Steel With Silicone Grip",
+      "Seat": "Self Adjustable",
+      "Weight Plate": "MS Bar",
+      "Weight Stack": "75/100 kg",
+      "Max User Weight": "150 kg",
+      "Length": "68 inches",
+      "Width": "63 inches",
+      "Height": "60 inches"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-IND-029",
+    "slug": "wrist-curl",
+    "name": "Wrist Curl",
+    "category": "indoor-gym-equipment",
+    "subcategory": "shoulders-arms",
+    "image": "assets/images/products/indoor-gym-equipment/wrist-curl.jpg",
+    "short_description": "A dedicated forearm station that isolates wrist flexion and extension against a fixed pad, building grip and forearm strength that carries directly into every other pulling and pressing lift.",
+    "specs": {
+      "Model": "SF-041",
+      "Main Frame": "Rectangular Steel Tube",
+      "Cushion": "Made Of PU Material",
+      "Handle": "Round Steel With Silicone Grip",
+      "Weight Plate": "MS Bar",
+      "Weight Stack": "50 kg",
+      "Max User Weight": "150 kg",
+      "Length": "26 inches",
+      "Width": "28 inches",
+      "Height": "42 inches"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-IND-030",
+    "slug": "preacher-curl-bench",
+    "name": "Preacher Curl Bench",
+    "category": "indoor-gym-equipment",
+    "subcategory": "shoulders-arms",
+    "image": "assets/images/products/indoor-gym-equipment/preacher-curl-bench.jpg",
+    "short_description": "A plate-loaded preacher curl station with an angled arm pad that locks the upper arm in place, isolating the biceps through a strict, full-stretch range of motion with a standard barbell.",
+    "specs": {
+      "Model": "SF-110",
+      "Main Frame": "Rectangular Steel Tube",
+      "Cushion": "Made Of PU Material",
+      "Seat": "Adjustable",
+      "Max User Weight": "150 kg",
+      "Length": "53 inches",
+      "Width": "33 inches",
+      "Height": "68 inches"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-IND-031",
+    "slug": "vertical-dips-stand",
+    "name": "Vertical Dips Stand",
+    "category": "indoor-gym-equipment",
+    "subcategory": "chest-back",
+    "image": "assets/images/products/indoor-gym-equipment/vertical-dips-stand.jpg",
+    "short_description": "A compact vertical dip station with a padded back support and angled handles, targeting the chest, shoulders and triceps through a full bodyweight dip without needing a spotter.",
+    "specs": {
+      "Model": "SF-116",
+      "Main Frame": "Rectangular Steel Tube",
+      "Cushion": "Made Of PU Material",
+      "Max User Weight": "150 kg",
+      "Length": "54 inches",
+      "Width": "33 inches",
+      "Height": "66 inches"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-IND-032",
+    "slug": "hyper-extension",
+    "name": "Hyper Extension",
+    "category": "indoor-gym-equipment",
+    "subcategory": "core-multi-station",
+    "image": "assets/images/products/indoor-gym-equipment/hyper-extension.jpg",
+    "short_description": "A 45-degree hyperextension bench that anchors the ankles and hips while the torso moves freely, building the lower back, glutes and hamstrings through a deep, controlled range of motion.",
+    "specs": {
+      "Model": "SF-117",
+      "Main Frame": "Rectangular Steel Tube",
+      "Cushion": "Made Of PU Material",
+      "Max User Weight": "150 kg",
+      "Length": "53 inches",
+      "Width": "31 inches",
+      "Height": "33 inches"
+    },
+    "price_on_enquiry": true,
+    "featured": true,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-IND-033",
+    "slug": "glute-hammerise",
+    "name": "Glute Hammerise",
+    "category": "indoor-gym-equipment",
+    "subcategory": "legs",
+    "image": "assets/images/products/indoor-gym-equipment/glute-hammerise.jpg",
+    "short_description": "A glute-ham raise station purpose-built for posterior-chain training, loading the glutes, hamstrings and lower back through a movement free weights alone can't safely replicate.",
+    "specs": {
+      "Model": "SF-249",
+      "Main Frame": "Rectangular Steel Tube",
+      "Cushion": "Made Of PU Material",
+      "Handle": "Round Steel With Silicone Grip",
+      "Max User Weight": "150 kg",
+      "Length": "62 inches",
+      "Width": "63 inches",
+      "Height": "35 inches"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-IND-034",
+    "slug": "olympic-flat-bench",
+    "name": "Olympic Flat Bench",
+    "category": "indoor-gym-equipment",
+    "subcategory": "benches-racks",
+    "image": "assets/images/products/indoor-gym-equipment/olympic-flat-bench.jpg",
+    "short_description": "A flat bench press station built with full Olympic barbell uprights and a spotter rack, giving you a dedicated, stable home for heavy barbell bench pressing.",
+    "specs": {
+      "Model": "SF-104",
+      "Main Frame": "Rectangular Steel Tube",
+      "Cushion": "Made Of PU Material",
+      "Seat": "Non Adjustable",
+      "Max User Weight": "150 kg",
+      "Length": "68 inches",
+      "Width": "68 inches",
+      "Height": "47 inches"
+    },
+    "price_on_enquiry": true,
+    "featured": true,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-IND-035",
+    "slug": "olympic-incline-bench",
+    "name": "Olympic Incline Bench",
+    "category": "indoor-gym-equipment",
+    "subcategory": "benches-racks",
+    "image": "assets/images/products/indoor-gym-equipment/olympic-incline-bench.jpg",
+    "short_description": "An incline barbell press station with built-in Olympic uprights, letting you load and unrack heavy incline barbell presses safely without a second spotter.",
+    "specs": {
+      "Model": "SF-105",
+      "Main Frame": "Rectangular Steel Tube",
+      "Cushion": "Made Of PU Material",
+      "Seat": "Adjustable",
+      "Max User Weight": "150 kg",
+      "Length": "77 inches",
+      "Width": "68 inches",
+      "Height": "59 inches"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-001",
+    "slug": "outdoor-exercise-bicycle",
+    "name": "Outdoor Exercise Bicycle",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "cardio-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/outdoor-exercise-bicycle.jpg",
+    "short_description": "A weatherproof, pedal-driven outdoor bike that delivers a steady, low-impact cardio workout for parks, societies and public fitness zones.",
+    "specs": {
+      "Model": "OLY-YN001",
+      "Size": "1000 x 510 x 1320 mm",
+      "Safety Zone": "4150 x 3550 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": true,
+    "placeholder": false
   },
   {
     "sku": "OGE-OUT-002",
-    "slug": "outdoor-chest-press-station",
-    "name": "Outdoor Chest Press Station",
+    "slug": "sky-stepper",
+    "name": "Sky Stepper",
     "category": "outdoor-gym-equipment",
-    "subcategory": "strength-stations",
-    "image": "assets/images/products/outdoor-gym-equipment/outdoor-chest-press-station.svg",
-    "short_description": "Sample placeholder listing. Replace this illustration and these specifications with your real outdoor chest press station photos and data via the Admin Panel.",
+    "subcategory": "cardio-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/sky-stepper.jpg",
+    "short_description": "A standing air-stepper that mimics a natural striding motion, building leg endurance and cardiovascular fitness with smooth, low-impact resistance.",
     "specs": {
-      "Status": "Sample placeholder — add real specifications"
+      "Model": "OLY-YN002",
+      "Size": "1250 x 625 x 1480 mm",
+      "Safety Zone": "4250 x 3650 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
     },
     "price_on_enquiry": true,
     "featured": false,
-    "placeholder": true
+    "placeholder": false
   },
   {
     "sku": "OGE-OUT-003",
-    "slug": "outdoor-leg-press-station",
-    "name": "Outdoor Leg Press Station",
+    "slug": "double-cross-trainer",
+    "name": "Double Cross Trainer",
     "category": "outdoor-gym-equipment",
-    "subcategory": "strength-stations",
-    "image": "assets/images/products/outdoor-gym-equipment/outdoor-leg-press-station.svg",
-    "short_description": "Sample placeholder listing. Replace this illustration and these specifications with your real outdoor leg press station photos and data via the Admin Panel.",
+    "subcategory": "cardio-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/double-cross-trainer.jpg",
+    "short_description": "A side-by-side elliptical cross trainer that lets two users work out together, combining upper- and lower-body movement for a full-body cardio session.",
     "specs": {
-      "Status": "Sample placeholder — add real specifications"
+      "Model": "OLY-YN005",
+      "Size": "1530 x 585 x 1625 mm",
+      "Safety Zone": "4550 x 3600 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
     },
     "price_on_enquiry": true,
-    "featured": false,
-    "placeholder": true
+    "featured": true,
+    "placeholder": false
   },
   {
     "sku": "OGE-OUT-004",
-    "slug": "outdoor-elliptical-trainer",
-    "name": "Outdoor Elliptical Cross Trainer",
+    "slug": "horse-rider",
+    "name": "Horse Rider",
     "category": "outdoor-gym-equipment",
     "subcategory": "cardio-stations",
-    "image": "assets/images/products/outdoor-gym-equipment/outdoor-elliptical-trainer.svg",
-    "short_description": "Sample placeholder listing. Replace this illustration and these specifications with your real outdoor elliptical cross trainer photos and data via the Admin Panel.",
+    "image": "assets/images/products/outdoor-gym-equipment/horse-rider.jpg",
+    "short_description": "A fun, low-impact rocking station that mimics a horse-riding motion, engaging the core and lower body while staying gentle on the joints — a favourite with all age groups.",
     "specs": {
-      "Status": "Sample placeholder — add real specifications"
+      "Model": "OLY-YN015",
+      "Size": "955 x 590 x 1280 mm",
+      "Safety Zone": "4000 x 3600 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": true,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-005",
+    "slug": "air-walker",
+    "name": "Air Walker",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "cardio-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/air-walker.jpg",
+    "short_description": "Our most popular outdoor cardio station — a smooth, wide-stride air walker that's gentle on the knees and ideal for daily walking-style cardio at any fitness level.",
+    "specs": {
+      "Model": "OLY-YN020",
+      "Size": "1070 x 615 x 1435 mm",
+      "Safety Zone": "4100 x 3650 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": true,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-006",
+    "slug": "double-air-walker",
+    "name": "Double Air Walker",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "cardio-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/double-air-walker.jpg",
+    "short_description": "A three-post, two-user version of our air walker, letting friends or family members get their daily cardio side by side on one compact station.",
+    "specs": {
+      "Model": "OLY-YN021",
+      "Size": "2015 x 615 x 1360 mm",
+      "Safety Zone": "5050 x 3650 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
     },
     "price_on_enquiry": true,
     "featured": false,
-    "placeholder": true
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-007",
+    "slug": "outdoor-rowing-machine",
+    "name": "Outdoor Rowing Machine",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "cardio-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/outdoor-rowing-machine.jpg",
+    "short_description": "A seated outdoor rowing station that builds back, arm and leg strength together through a smooth pulling motion, replicating an indoor rowing machine in a weatherproof build.",
+    "specs": {
+      "Model": "OLY-YN014",
+      "Size": "1390 x 845 x 1098 mm",
+      "Safety Zone": "4400 x 3850 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-008",
+    "slug": "outdoor-chest-press",
+    "name": "Outdoor Chest Press",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "strength-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/outdoor-chest-press.jpg",
+    "short_description": "A dual-seat outdoor chest press station that lets two users build chest, shoulder and tricep strength side by side using bodyweight-controlled resistance.",
+    "specs": {
+      "Model": "OLY-YN006",
+      "Size": "1955 x 730 x 1955 mm",
+      "Safety Zone": "5000 x 3750 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": true,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-009",
+    "slug": "shoulder-press-double",
+    "name": "Shoulder Press Double",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "strength-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/shoulder-press-double.jpg",
+    "short_description": "A standing double shoulder press station that builds overhead pressing strength for two users at once, with smooth pivoting arms and a sturdy central column.",
+    "specs": {
+      "Model": "OLY-YN008",
+      "Size": "2570 x 805 x 2085 mm",
+      "Safety Zone": "5600 x 3850 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-010",
+    "slug": "leg-press-double",
+    "name": "Leg Press Double",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "strength-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/leg-press-double.jpg",
+    "short_description": "A seated double leg press station for building quad, hamstring and glute strength, with two independent pressing arms so two users can train side by side.",
+    "specs": {
+      "Model": "OLY-YN0010",
+      "Size": "2255 x 585 x 1810 mm",
+      "Safety Zone": "5300 x 3600 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": true,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-011",
+    "slug": "leg-strength-station",
+    "name": "Leg Strength Station",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "strength-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/leg-strength-station.jpg",
+    "short_description": "A standing leg-strength station with a sturdy waist-height frame, used for supported leg raises, stretches and lower-body conditioning movements.",
+    "specs": {
+      "Model": "OLY-YN011",
+      "Size": "930 x 810 x 1135 mm",
+      "Safety Zone": "3950 x 3850 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-012",
+    "slug": "outdoor-flat-bench",
+    "name": "Outdoor Flat Bench",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "strength-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/outdoor-flat-bench.jpg",
+    "short_description": "A weatherproof flat exercise bench with a fixed sit-up handle, built for outdoor ab work, step-ups and bodyweight conditioning routines.",
+    "specs": {
+      "Model": "OLY-YN025",
+      "Size": "1000 x 290 x 240 mm",
+      "Safety Zone": "4000 x 5900 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-013",
+    "slug": "outdoor-parallel-bars",
+    "name": "Outdoor Parallel Bars",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "calisthenics-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/outdoor-parallel-bars.jpg",
+    "short_description": "A triangular-frame parallel bar station for dips, supports and bodyweight conditioning, built around a single reinforced centre post for stability.",
+    "specs": {
+      "Model": "OLY-YN013",
+      "Size": "1945 x 545 x 1555 mm",
+      "Safety Zone": "4950 x 3550 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": false,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-014",
+    "slug": "horizontal-ladder",
+    "name": "Horizontal Ladder",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "calisthenics-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/horizontal-ladder.jpg",
+    "short_description": "A classic monkey-bar style horizontal ladder for grip strength, upper-body conditioning and playful calisthenics training, built on a sturdy four-post frame.",
+    "specs": {
+      "Model": "OLY-YN039",
+      "Size": "3264 x 1054 x 2000 mm",
+      "Safety Zone": "6300 x 4100 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": true,
+    "placeholder": false
+  },
+  {
+    "sku": "OGE-OUT-015",
+    "slug": "pull-up-bars-station",
+    "name": "Pull Up Bars Station",
+    "category": "outdoor-gym-equipment",
+    "subcategory": "calisthenics-stations",
+    "image": "assets/images/products/outdoor-gym-equipment/pull-up-bars-station.jpg",
+    "short_description": "A multi-height pull-up bar station with four staggered bars, letting users of different heights and abilities train pull-ups, hangs and core work side by side.",
+    "specs": {
+      "Model": "OLY-YN041",
+      "Size": "4116 x 114 x 2200 mm",
+      "Safety Zone": "7200 x 3200 mm",
+      "Frame": "Galvanised & Powder-Coated Steel",
+      "Installation": "In-Ground Mount"
+    },
+    "price_on_enquiry": true,
+    "featured": true,
+    "placeholder": false
   }
 ]
