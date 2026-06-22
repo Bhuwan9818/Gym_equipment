@@ -285,7 +285,7 @@ nav.s{
 ══════════════════════════════════════════════════*/
 .banner{position:relative;overflow:hidden;height:clamp(380px,55vw,620px)}
 .banner img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
-.banner-ov{position:absolute;inset:0;background:linear-gradient(105deg,rgba(0,0,0,.78) 0%,rgba(0,0,0,.3) 55%,transparent 100%)}
+.banner-ov{position:absolute;inset:0;background:linear-gradient(105deg,rgba(0, 0, 0, 0.894) 0%,rgba(0,0,0,.3) 55%,transparent 100%)}
 .banner-body{position:absolute;top:50%;left:5vw;transform:translateY(-50%);max-width:580px}
 .banner-body .eyebrow{color:var(--gold)}
 .banner-body h2{font-family:var(--fd);font-size:clamp(2.2rem,6vw,5.5rem);line-height:.95;letter-spacing:.03em;color:#F5F0E8;margin-bottom:1.2rem}
