@@ -43,6 +43,47 @@ a,button{cursor:none}
 @media(pointer:coarse){#cur{display:none}}
 
 /*══════════════════════════════════════════════════
+  TOP BAR
+══════════════════════════════════════════════════*/
+.top-bar{
+  background:var(--gold);
+  color:#080808;
+  font-family:var(--fa);
+  font-size:.72rem;
+  font-weight:600;
+  letter-spacing:.06em;
+  padding:.45rem 5vw;
+  width:100%;
+  z-index:950;
+  position:relative;
+}
+.top-bar-inner{
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;max-width:1400px;margin:0 auto;
+}
+.top-bar-left{display:flex;align-items:center;gap:1.4rem;flex-wrap:wrap}
+.top-bar-link{
+  display:inline-flex;align-items:center;gap:.45rem;
+  color:#080808;text-decoration:none;
+  transition:opacity .2s;
+}
+.top-bar-link:hover{opacity:.72}
+.top-bar-link i{font-size:.8rem}
+.top-bar-right{display:flex;align-items:center;gap:.6rem}
+.top-bar-social{
+  width:26px;height:26px;border-radius:50%;
+  background:rgba(0,0,0,.15);
+  display:inline-flex;align-items:center;justify-content:center;
+  color:#080808;text-decoration:none;
+  font-size:.75rem;
+  transition:background .25s,color .25s,transform .25s;
+}
+.top-bar-social:hover{background:#080808;color:var(--gold);transform:scale(1.15)}
+@media(max-width:640px){
+  .top-bar-left span{display:none}
+  .top-bar-link i{font-size:.95rem}
+}
+
+/*══════════════════════════════════════════════════
   NAV
 ══════════════════════════════════════════════════*/
 nav{
@@ -494,3 +535,53 @@ footer{background:var(--bg);border-top:1px solid var(--br);transition:var(--tt)}
   .spec-row{grid-template-columns:1fr}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/*══════════════════════════════════════════════════
+  OUR VISION PAGE
+══════════════════════════════════════════════════*/
+.vision-cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1.6rem;
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 5vw;
+}
+.vision-card{
+  background:var(--bg2);
+  border:1px solid var(--br);
+  padding:2.4rem 2rem;
+  transition:border-color .3s,box-shadow .3s,transform .3s;
+}
+.vision-card:hover{border-color:var(--brh);box-shadow:var(--sh);transform:translateY(-4px)}
+.vision-card--accent{background:var(--gold);border-color:var(--gold)}
+.vision-card--accent h3,.vision-card--accent p,.vision-card--accent .vision-card-icon{color:#080808}
+.vision-card-icon{color:var(--gold);margin-bottom:1.3rem}
+.vision-card--accent .vision-card-icon{color:#080808}
+.vision-card h3{font-family:var(--fd);font-size:clamp(1.5rem,2.5vw,1.9rem);letter-spacing:.06em;margin-bottom:.85rem;color:var(--tx)}
+.vision-card--accent h3{color:#080808}
+.vision-card p{color:var(--tx2);line-height:1.8;font-size:.88rem}
+.vision-card--accent p{color:rgba(8,8,8,.75)}
+
+.vision-story{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:clamp(2rem,5vw,4rem);
+  align-items:center;
+}
+.vision-story-text p{color:var(--tx2);line-height:1.85;font-size:clamp(.88rem,1.1vw,1rem)}
+.vision-story-img{position:relative}
+.vision-story-img img{width:100%;height:420px;object-fit:cover}
+.vision-story-badge{
+  position:absolute;bottom:-1px;left:0;
+  background:var(--gold);color:#080808;
+  font-family:var(--fa);font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  padding:.55rem 1.2rem;
+}
+
+@media(max-width:900px){
+  .vision-cards{grid-template-columns:1fr}
+  .vision-story{grid-template-columns:1fr}
+  .vision-story-img{order:-1}
+  .vision-story-img img{height:280px}
+}
