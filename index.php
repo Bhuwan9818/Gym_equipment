@@ -209,10 +209,10 @@ include __DIR__ . '/includes/header.php';
               <div class="ccat-tagline">
                   <?php echo h($cat['tagline']); ?>
               </div>
-
+<!-- 
               <span class="ccat-count">
                   <?php echo product_count_label($cat['id']); ?> →
-              </span>
+              </span> -->
             </div>
       </a>
     <?php endforeach; ?>
