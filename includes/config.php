@@ -9,9 +9,9 @@
 // ---- Basic site info -------------------------------------------------
 define('SITE_NAME', 'FITRONFITNESS');
 define('SITE_TAGLINE', 'Premium Gym Equipment — India');
-define('SITE_PHONE_DISPLAY', '99111 15960');
-define('SITE_PHONE_TEL', '+919911115960');
-define('SITE_WHATSAPP', '919911115960'); // digits only, with country code, no +
+define('SITE_PHONE_DISPLAY', '+91 9911115960');
+define('SITE_PHONE_TEL', '+91 9911115960');
+define('SITE_WHATSAPP', '91 9911115960'); // digits only, with country code, no +
 define('SITE_EMAIL', 'shashank995390@gmail.com');
 define('SITE_ADDRESS', 'Ground Floor, Plot No. 660, Khasra No. 1111 & 1116, Unnamed Road, Bhalswa Jahangir Puri, New Delhi, Delhi, India, 110033');
 
