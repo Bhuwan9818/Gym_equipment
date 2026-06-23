@@ -55,7 +55,7 @@ $categories = get_categories();
   <a href="<?php echo url_for_home(); ?>" class="logo">FITRON<em>FITNESS</em></a>
   <ul class="nav-links">
     <li class="nav-dd">
-      <a href="<?php echo url_for_home(); ?>#products">Products</a>
+      <a href="<?php echo url_for_home(); ?>">Home</a>
     </li>
     <li class="nav-dd">
       <a href="<?php echo url_for_home(); ?>#categories">Categories</a>
@@ -69,7 +69,7 @@ $categories = get_categories();
       </div>
     </li>
     <li><a href="<?php echo url_for_home(); ?>#about">About</a></li>
-    <li><a href="<?php echo url_for_home(); ?>#testimonials">Reviews</a></li>
+    <!-- <li><a href="<?php echo url_for_home(); ?>#testimonials">Reviews</a></li> -->
     <li><a href="<?php echo url_for_home(); ?>#contact">Contact</a></li>
   </ul>
   <div class="nav-r">
