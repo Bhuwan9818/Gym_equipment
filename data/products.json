@@ -109,7 +109,7 @@
     "name": "Assisted Dip Chin",
     "category": "indoor-gym-equipment",
     "subcategory": "chest-back",
-    "image": "assets/images/products/indoor-gym-equipment/assisted-dip-chin.jpg",
+    "image": "assets/images/products/indoor-gym-equipment/assisted-dip-chin.png",
     "short_description": "A counterweighted dip and chin-up station that lets users of any strength level build toward full bodyweight pull-ups and dips with adjustable assistance.",
     "specs": {
       "Model": "SF-006",
@@ -263,7 +263,7 @@
     "name": "Biceps Curl",
     "category": "indoor-gym-equipment",
     "subcategory": "shoulders-arms",
-    "image": "assets/images/products/indoor-gym-equipment/biceps-curl.jpg",
+    "image": "assets/images/products/indoor-gym-equipment/biceps-curl.png",
     "short_description": "A preacher-style curl station that locks the upper arm in place so every rep isolates the biceps, removing momentum and shoulder swing from the curl.",
     "specs": {
       "Model": "SF-015",
@@ -364,7 +364,7 @@
     "name": "Cable Cross Over",
     "category": "indoor-gym-equipment",
     "subcategory": "core-multi-station",
-    "image": "assets/images/products/indoor-gym-equipment/cable-cross-over.jpg",
+    "image": "assets/images/products/indoor-gym-equipment/cable-cross-over.png",
     "short_description": "A dual-tower cable crossover rig with independently adjustable pulleys on each side, covering crossovers, presses, curls and a full range of standing cable work.",
     "specs": {
       "Model": "SF-020",
@@ -408,7 +408,7 @@
     "name": "Adductor / Abductor",
     "category": "indoor-gym-equipment",
     "subcategory": "legs",
-    "image": "assets/images/products/indoor-gym-equipment/adductor-abductor.jpg",
+    "image": "assets/images/products/indoor-gym-equipment/adductor-abductor.png",
     "short_description": "A seated inner-and-outer-thigh machine that switches between adduction and abduction movements to target the hips and inner thighs through a controlled range.",
     "specs": {
       "Model": "SF-032",
@@ -460,7 +460,7 @@
     "name": "Abdominal Machine",
     "category": "indoor-gym-equipment",
     "subcategory": "core-multi-station",
-    "image": "assets/images/products/indoor-gym-equipment/abdominal-machine.jpg",
+    "image": "assets/images/products/indoor-gym-equipment/abdominal-machine.png",
     "short_description": "A selectorised crunch machine that loads the abdominals directly through a guided flexion path, adding progressive resistance that bodyweight crunches can't.",
     "specs": {
       "Model": "SF-036",
@@ -561,7 +561,7 @@
     "name": "Adjustable Bench",
     "category": "indoor-gym-equipment",
     "subcategory": "benches-racks",
-    "image": "assets/images/products/indoor-gym-equipment/adjustable-bench.jpg",
+    "image": "assets/images/products/indoor-gym-equipment/adjustable-bench.png",
     "short_description": "A multi-position adjustable bench that moves from flat to a steep incline, the everyday workhorse for dumbbell presses, rows and accessory lifts.",
     "specs": {
       "Model": "SF-102",
@@ -583,7 +583,7 @@
     "name": "Flat Bench",
     "category": "indoor-gym-equipment",
     "subcategory": "benches-racks",
-    "image": "assets/images/products/indoor-gym-equipment/flat-bench.jpg",
+    "image": "assets/images/products/indoor-gym-equipment/flat-bench.png",
     "short_description": "A fixed flat bench built on a heavy rectangular steel frame — simple, stable, and ready for presses, rows and dumbbell work all day long.",
     "specs": {
       "Model": "SF-103",
